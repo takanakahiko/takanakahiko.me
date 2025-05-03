@@ -17,7 +17,7 @@
     "bootstrap-icons": "^1.10.3",
     "bulma": "1.0.4",
     "bulma-timeline": "3.0.5",
-    "nuxt": "3.17.0",
+    "nuxt": "3.17.1",
     "three": "0.176.0"
   },
   "devDependencies": {
