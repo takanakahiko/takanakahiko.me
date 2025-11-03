@@ -17,11 +17,12 @@
     "bootstrap-icons": "^1.10.3",
     "bulma": "1.0.4",
     "bulma-timeline": "3.0.5",
-    "nuxt": "3.17.5",
+    "nuxt": "^4.2.0",
     "three": "0.181.0"
   },
   "devDependencies": {
     "@nuxtjs/google-adsense": "3.0.0",
-    "@nuxtjs/google-gtag": "1.0.4"
+    "@nuxtjs/google-gtag": "1.0.4",
+    "sass-embedded": "^1.93.3"
   }
 }
