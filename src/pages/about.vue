@@ -14,7 +14,7 @@
       <div class="container p-2">
         <span>Master of Engineering</span>
         /
-        <span>Engineer at Akatsuki Inc.</span>
+        <span>Engineer at U-NEXT Co., Ltd.</span>
         /
         <a href="https://www.credential.net/c47472d8-6707-4302-ab04-4dbf65b66d30" target="_blank" rel="noopener noreferrer">Professional Cloud Architect</a>
         /
