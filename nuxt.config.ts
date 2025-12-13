@@ -1,9 +1,4 @@
 import { defineNuxtConfig } from 'nuxt/config'
-import { fileURLToPath } from 'url'
-import { dirname, resolve } from 'path'
-
-const __filename = fileURLToPath(import.meta.url)
-const __dirname = dirname(__filename)
 
 const pkg = require('./package')
 
@@ -75,16 +70,6 @@ export default defineNuxtConfig({
         },
       },
     },
-  },
-
-  nitro: {
-    publicAssets: [
-      {
-        baseURL: '/',
-        dir: resolve(__dirname, 'src/public'),
-        maxAge: 60 * 60 * 24 * 365 // 1 year
-      }
-    ]
   },
 
   compatibilityDate: '2025-01-01',
