@@ -72,5 +72,15 @@ export default defineNuxtConfig({
     },
   },
 
+  nitro: {
+    publicAssets: [
+      {
+        baseURL: '/',
+        dir: '../src/public',
+        maxAge: 60 * 60 * 24 * 365 // 1 year
+      }
+    ]
+  },
+
   compatibilityDate: '2025-01-01',
 })
