@@ -5,5 +5,5 @@
   "schedule": [
     "every weekend"
   ],
-  "automerge": true
+  "postUpdateOptions": ["npmInstallTwice"]
 }
