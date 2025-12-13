@@ -16,7 +16,7 @@
         /
         <span>Engineer at U-NEXT Co., Ltd.</span>
         /
-        <a href="https://www.credential.net/c47472d8-6707-4302-ab04-4dbf65b66d30" target="_blank" rel="noopener noreferrer">Professional Cloud Architect</a>
+        <a href="https://www.credly.com/badges/24a73807-59db-4936-9f3a-e2dd9081bf63/public_url" target="_blank" rel="noopener noreferrer">Professional Cloud Architect</a>
         /
         <a href="https://www.jafp.or.jp/exam/about/" target="_blank" rel="noopener noreferrer">3rd grade Certified Skilled Professional of Financial Planning</a>
       </div>
