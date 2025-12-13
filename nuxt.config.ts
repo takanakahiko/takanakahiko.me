@@ -1,4 +1,9 @@
 import { defineNuxtConfig } from 'nuxt/config'
+import { fileURLToPath } from 'url'
+import { dirname, resolve } from 'path'
+
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = dirname(__filename)
 
 const pkg = require('./package')
 
@@ -76,7 +81,7 @@ export default defineNuxtConfig({
     publicAssets: [
       {
         baseURL: '/',
-        dir: '../src/public',
+        dir: resolve(__dirname, 'src/public'),
         maxAge: 60 * 60 * 24 * 365 // 1 year
       }
     ]
