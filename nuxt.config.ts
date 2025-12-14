@@ -1,6 +1,6 @@
 import { defineNuxtConfig } from 'nuxt/config'
 
-const pkg = require('./package')
+const description = 'takanakahiko portfolio page'
 
 export default defineNuxtConfig({
   ssr: false,
@@ -8,17 +8,17 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      title: 'takanakahiko I/O',
+      title: 'takanakahiko',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        { hid: 'description', name: 'description', content: pkg.description },
-        { hid: 'og:site_name', property: 'og:site_name', content: 'takanakahiko I/O' },
-        { hid: 'og:type', property: 'og:type', content: 'website' },
-        { hid: 'og:url', property: 'og:url', content: 'https://takanakahiko.me' },
-        { hid: 'og:title', property: 'og:title', content: 'takanakahiko I/O' },
-        { hid: 'og:description', property: 'og:description', content: pkg.description },
-        { hid: 'og:image', property: 'og:image', content: 'https://takanakahiko.me/images/Announce_Page_OG_Image.jpg' },
+        { name: 'description', content: description },
+        { property: 'og:site_name', content: 'takanakahiko' },
+        { property: 'og:type', content: 'website' },
+        { property: 'og:url', content: 'https://takanakahiko.me' },
+        { property: 'og:title', content: 'takanakahiko' },
+        { property: 'og:description', content: description },
+        { property: 'og:image', content: 'https://takanakahiko.me/images/Announce_Page_OG_Image.jpg' },
         { name: 'twitter:card', content: 'summary' },
         { name: 'twitter:site', content: '@takanakahiko' }
       ],
@@ -38,7 +38,7 @@ export default defineNuxtConfig({
     '@/assets/bulma-style.scss',
     '@/assets/fill-in.css',
     '@/../node_modules/bulma-timeline/dist/css/bulma-timeline.min.css',
-    '@mdi/font/scss/materialdesignicons.scss',
+    '@mdi/font/css/materialdesignicons.css',
     'bootstrap-icons/font/bootstrap-icons.css',
   ],
 
@@ -61,16 +61,16 @@ export default defineNuxtConfig({
     ]
   },
 
-  vite: {
-    css: {
-      preprocessorOptions: {
-        scss: {
-          // 依存側( @mdi/font, bulma )の警告がうるさいので無視
-          silenceDeprecations: ['mixed-decls', 'color-functions', 'global-builtin', 'import']
-        },
-      },
-    },
-  },
+  // vite: {
+  //   css: {
+  //     preprocessorOptions: {
+  //       scss: {
+  //         // 依存側( @mdi/font, bulma )の警告がうるさいので無視
+  //         silenceDeprecations: ['mixed-decls', 'color-functions', 'global-builtin', 'import']
+  //       },
+  //     },
+  //   },
+  // },
 
   compatibilityDate: '2025-01-01',
 })
