@@ -38,7 +38,7 @@ export default defineNuxtConfig({
     '@/assets/bulma-style.scss',
     '@/assets/fill-in.css',
     '@/../node_modules/bulma-timeline/dist/css/bulma-timeline.min.css',
-    '@mdi/font/scss/materialdesignicons.scss',
+    '@mdi/font/css/materialdesignicons.css',
     'bootstrap-icons/font/bootstrap-icons.css',
   ],
 
@@ -61,16 +61,16 @@ export default defineNuxtConfig({
     ]
   },
 
-  vite: {
-    css: {
-      preprocessorOptions: {
-        scss: {
-          // 依存側( @mdi/font, bulma )の警告がうるさいので無視
-          silenceDeprecations: ['mixed-decls', 'color-functions', 'global-builtin', 'import']
-        },
-      },
-    },
-  },
+  // vite: {
+  //   css: {
+  //     preprocessorOptions: {
+  //       scss: {
+  //         // 依存側( @mdi/font, bulma )の警告がうるさいので無視
+  //         silenceDeprecations: ['mixed-decls', 'color-functions', 'global-builtin', 'import']
+  //       },
+  //     },
+  //   },
+  // },
 
   compatibilityDate: '2025-01-01',
 })
