@@ -8,15 +8,15 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      title: 'takanakahiko I/O',
+      title: 'takanakahiko',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         { name: 'description', content: description },
-        { property: 'og:site_name', content: 'takanakahiko I/O' },
+        { property: 'og:site_name', content: 'takanakahiko' },
         { property: 'og:type', content: 'website' },
         { property: 'og:url', content: 'https://takanakahiko.me' },
-        { property: 'og:title', content: 'takanakahiko I/O' },
+        { property: 'og:title', content: 'takanakahiko' },
         { property: 'og:description', content: description },
         { property: 'og:image', content: 'https://takanakahiko.me/images/Announce_Page_OG_Image.jpg' },
         { name: 'twitter:card', content: 'summary' },

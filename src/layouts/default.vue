@@ -5,7 +5,7 @@
         <div class="navbar-brand">
           <a href="/" class="navbar-item logo">
             <img src="~assets/animated-icon.gif">
-            <b class>&nbsp;takanakahiko I/O</b>
+            <b class>&nbsp;takanakahiko</b>
           </a>
           <div
             class="navbar-burger burger"
@@ -37,8 +37,7 @@
     <footer class="footer">
       <div class="content has-text-centered">
         <p>
-          <strong>takanakahiko I/O</strong> by
-          <a href="https://takanakahiko.me">takanakahiko</a>. The source code is licensed
+          The source code is licensed
           <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
           is licensed
           <a
