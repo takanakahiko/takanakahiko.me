@@ -93,4 +93,8 @@ useHead({
 .navbar-item .is-active {
   color: black;
 }
+
+.navbar.is-primary .navbar-burger span {
+  background-color: white;
+}
 </style>
