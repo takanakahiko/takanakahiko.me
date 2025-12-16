@@ -49,52 +49,52 @@
   </div>
 </template>
 
-<script>
-export default {
-  setup () {
-    return {
-      menuActive: false,
-      items: [
-        {
-          title: 'Top',
-          icon: 'home',
-          to: { name: 'index' }
-        },
-        {
-          title: 'About',
-          icon: 'pencil',
-          to: { name: 'about' }
-        },
-        {
-          title: 'Works',
-          icon: 'check',
-          to: { name: 'works' }
-        }
-      ]
-    }
+<script setup>
+import { ref, watch } from 'vue'
+import { useRoute, useHead } from '#imports'
+
+const menuActive = ref(false)
+const route = useRoute()
+
+const items = [
+  {
+    title: 'Top',
+    icon: 'home',
+    to: { name: 'index' }
   },
-  head () {
-    return {
-      bodyAttrs: {
-        class: 'has-navbar-fixed-top'
-      }
-    }
+  {
+    title: 'About',
+    icon: 'pencil',
+    to: { name: 'about' }
   },
-  watch: {
-    $route () {
-      this.menuActive = false
-    }
-  },
-  methods: {
-    menuToggle () {
-      this.menuActive = !this.menuActive
-    }
+  {
+    title: 'Works',
+    icon: 'check',
+    to: { name: 'works' }
   }
+]
+
+const menuToggle = () => {
+  menuActive.value = !menuActive.value
 }
+
+watch(route, () => {
+  menuActive.value = false
+})
+
+useHead({
+  bodyAttrs: {
+    class: 'has-navbar-fixed-top'
+  }
+})
 </script>
 
 <style lang="scss">
 .navbar-item .is-active {
   color: black;
+}
+
+.navbar.is-primary .navbar-burger span {
+  background-color: white;
 }
 </style>
