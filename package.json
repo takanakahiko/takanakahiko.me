@@ -21,7 +21,7 @@
     "three": "0.182.0"
   },
   "devDependencies": {
-    "@nuxtjs/google-adsense": "3.0.0",
+    "@nuxtjs/google-adsense": "3.0.3",
     "@nuxtjs/google-gtag": "1.0.4",
     "sass-embedded": "^1.93.3"
   }
