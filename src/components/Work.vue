@@ -2,7 +2,7 @@
   <div
     class="work-container visible"
   >
-    <div class="section columns is-variable">
+    <div class="columns is-variable">
       <div class="column is-half">
         <a :href="url">
           <figure class="image is-4by3">
