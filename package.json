@@ -16,7 +16,6 @@
     "@mdi/font": "7.4.47",
     "bootstrap-icons": "^1.10.3",
     "bulma": "1.0.4",
-    "bulma-timeline": "3.0.5",
     "nuxt": "^4.2.0",
     "three": "0.182.0"
   },
