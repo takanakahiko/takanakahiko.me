@@ -11,7 +11,7 @@
 .VueToNuxtLogo {
   display: inline-block;
   animation: turn 2s linear forwards 1s;
-  transform: rotateX(180deg);
+  transform: rotateX(0deg);
   position: relative;
   overflow: hidden;
   height: 180px;
@@ -61,7 +61,7 @@
 
 @keyframes turn {
   100% {
-    transform: rotateX(0deg);
+    transform: rotateX(180deg);
   }
 }
 
