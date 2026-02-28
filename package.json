@@ -17,7 +17,7 @@
     "bootstrap-icons": "^1.10.3",
     "bulma": "1.0.4",
     "nuxt": "^4.2.0",
-    "three": "0.183.1"
+    "three": "0.183.2"
   },
   "devDependencies": {
     "@nuxtjs/google-adsense": "3.0.3",
